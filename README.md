@@ -7,7 +7,7 @@ La grande différence est la forme totalement libre et non guidée des revendica
 
 ## Finalité
 
-Les propositions soumises sur le site sont très nombreuses, et de nombreux doublons sont présent. Lóbjectif global est de synthétiser les revendications. En pratique, on va essayer:
+Les propositions soumises sur le site sont très nombreuses, et de nombreux doublons sont présents. L'objectif global est de synthétiser les revendications. En pratique, on va essayer:
 * de trouver une façon de rapprocher les propositions très similaires et les doublons
 * d'agréger les mesures d'opinion (votes pour ou contre) sur les propositions similaires
 
@@ -17,7 +17,6 @@ La structure des données a été clarifiée:
 1. les propositions sont soit atomiques soit composées (une proposition très différente par paragraphe, à la manière d'une constitution)
 2. les propositions sont structurées en très nombreux clusters à cardinalité faible mais plus ou moins constante (il y a toujours environ le même nombre de doublons pour une proposition)
 3. la distribution des votes est très fortement biaisée: un petit nombre de propositions dépassent toutes les autres, mais il y a une "fat tail" de petites propositions qui composent une part non négligeable des votes
-
 
 Au vu de ces remarques, il devient clair (1.) que le pré-traitement est important, que (2.) les algorithmes de classification auront du mal avec ce jeu de données à cause de sa structure très granulaire, et (3) qu'il n'est pas souhaitable de procéder à du filtrage à moins d'ignorer une grande partie des revendications. 
 
