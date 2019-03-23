@@ -52,7 +52,7 @@ De haut en bas:
 
 Des réglages sont également disponibles:
 
-<img src="barre.png", width=60>
+<img src="barre.png" width=60>
 
 Ils permettent de filtrer les points pour une visualisation simplifiée. 
 
