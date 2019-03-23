@@ -38,11 +38,30 @@ Les outils sont présents aux adresses suivantes, pour chaque thème:
 * [Expression Libre & Sujets de société](http://vmi251326.contaboserver.net:5006/Libre)
 * [Sport, Culture](http://vmi251326.contaboserver.net:5006/Culture)
 
+L'outil dispose de nombreux outils pour faciliter la navigation et la classification:
+
+<img src="tools.png" width="40">
+
+De haut en bas:
+* outil lasso de sélection de points
+* zoom rectangle
+* sélection rectangulaire de points
+* zoom roulette
+* édition de points
+* surbrillance
+
+Des réglages sont également disponibles:
+
+<img src="barre.png", width=60>
+
+Ils permettent de filtrer les points pour une visualisation simplifiée. 
+
 ## Prochaines étapes
 Certaines perspectives prometteuses n'ont pas pu être explorées faute de temps:
 * Granulariser les propositions composées
 * Explorer plus avant les possibilités de clustering automatique
 * Explorer l'approche itérative, consistant à identifier les clusters aux marges, les synthétiser, ensuite re-transformer et re-classifier jusqu'à ce que le jeu de données soit vide.
+* Mettre en place une correction de Bonferroni sur le nombre effectif de propositions (via ACP) ou simplement une FDR, au lieu du nombre total.
 
 ## Étapes de l'analyse
 
@@ -80,6 +99,7 @@ Le contrôle qualité final effectue les étapes suivantes:
 
 * projection du jeu de données nettoyé sur les word loadings pré-entraînés sur le jeu frWac, gracieusement mis à disposition par M. Fauconnier (http://fauconnier.github.io/). Il s'agit du corpus frWac (>1 milliard de textes), avec une limite d'au moins 50 occurrences, entraîné avec l'algorithme SKIP et projeté sur 700 dimensions.
 * réduction de dimension à l'aide de l'algorithme t-SNE
+* calcul des p-valeurs et intervalles de confiance pour les votes
 
 
 
