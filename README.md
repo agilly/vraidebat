@@ -3,7 +3,7 @@
 Le [Vrai Débat](https://le-vrai-debat.fr) est un site participatif de collecte de revendications politiques lancé parallèlement au site du gouvernement français "Le Grand Débat National".
 La grande différence est la forme totalement libre et non guidée des revendications, ce qui les rend plus intéressantes mais d'autant plus difficiles à analyser.
 
-![](tsne.all.perp50.png)
+![](tsne.all.perp50.jpg)
 
 ## Finalité
 
